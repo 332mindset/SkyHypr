@@ -1,48 +1,111 @@
 # SkyHypr
 
-Minimal black/cyan Hyprland setup with custom utilities.
+<div align="center">
+
+# 🌌 SkyHypr
+
+*A modern Hyprland setup focused on minimalism, smooth animations and custom utilities.*
 
 ![Desktop](screenshots/desktop.png)
 
-## Features
+</div>
 
-- Hyprland
-- Waybar
-- Kitty
-- Rofi
-- Fastfetch
-- Cava
-- Dolphin styling
-- Firefox CSS
-- Custom Wallpaper Picker
-- Custom Power Menu
+---
 
-## Gallery
+## ✨ Features
 
-![Rofi](screenshots/rofi.png)
+* 🪟 Hyprland
+* 🎨 Minimal black & cyan theme
+* 🚀 Waybar
+* 🖥 Kitty
+* 🔍 Rofi
+* 📁 Dolphin
+* 🌐 Firefox CSS
+* 📊 Fastfetch
+* 🎵 Cava
+* 🔔 SwayNC
 
-![Wallpaper Picker](screenshots/wallpaper-picker.png)
+### Custom Utilities
 
-![Power Menu](screenshots/power-menu.png)
+* 🖼 Wallpaper Picker
+* ⏻ Power Menu
 
-![Dolphin](screenshots/dolphin.png)
+---
 
-![Fastfetch](screenshots/fastfetch.png)
+# 📸 Gallery
 
-![Firefox](screenshots/firefox.png)
+| Desktop                      | Rofi                      |
+| ---------------------------- | ------------------------- |
+| ![](screenshots/desktop.png) | ![](screenshots/rofi.png) |
 
-## Installation
+| Wallpaper Picker                      | Power Menu                      |
+| ------------------------------------- | ------------------------------- |
+| ![](screenshots/wallpaper-picker.png) | ![](screenshots/power-menu.png) |
 
-Coming soon.
+| Dolphin                      | Firefox                      |
+| ---------------------------- | ---------------------------- |
+| ![](screenshots/dolphin.png) | ![](screenshots/firefox.png) |
 
-## Keybindings
+---
 
-| Keybind | Action |
-|---|---|
-| `Super + D` | App launcher |
-| `Super + W` | Wallpaper picker |
-| `Super + Shift + E` | Power menu |
+# 📦 Installation
 
-## Credits
+Clone the repository
 
-Made for Arch Linux + Hyprland.
+```bash
+git clone https://github.com/YOUR_USERNAME/SkyHypr.git
+
+cd SkyHypr
+```
+
+Make installer executable
+
+```bash
+chmod +x install.sh
+```
+
+Run installer
+
+```bash
+./install.sh
+```
+
+---
+
+# ⌨ Default Keybinds
+
+| Key               | Action           |
+| ----------------- | ---------------- |
+| Super + D         | Rofi Launcher    |
+| Super + W         | Wallpaper Picker |
+| Super + Shift + E | Power Menu       |
+
+---
+
+# 📂 Repository Structure
+
+```
+SkyHypr
+├── .config
+├── screenshots
+├── scripts
+├── wallpapers
+├── install.sh
+├── packages.txt
+└── README.md
+```
+
+---
+
+# ❤️ Credits
+
+* Hyprland
+* Waybar
+* Kitty
+* Rofi
+* Fastfetch
+* Cava
+
+---
+
+## ⭐ If you like this project, consider giving it a star.
