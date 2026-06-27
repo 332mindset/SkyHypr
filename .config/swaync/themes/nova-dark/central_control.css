@@ -1,0 +1,60 @@
+/* Основное окно */
+.control-center {
+    background: @bg;
+    border: 2px solid @bg-alt;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    padding: 14px;
+}
+
+/* Виджеты внутри (DND, Плеер, Заголовок) */
+.widget-title,
+.widget-dnd,
+.widget-mpris {
+    background: @bg-alt;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 1px solid @bg;
+}
+
+/* Заголовок "Уведомления" */
+.widget-title > label {
+    color: @fg;
+    font-size: 1.3rem;
+}
+
+/* Кнопка "Очистить" */
+.widget-title > button {
+    background: @bg;
+    color: @red;
+    border-radius: 6px;
+    padding: 4px 12px;
+    border: none;
+    box-shadow: none;
+}
+
+.widget-title > button:hover {
+    background: @red;
+    color: @bg;
+}
+
+/* Переключатель "Не беспокоить" */
+.widget-dnd > switch:checked {
+    background: @blue;
+    border-radius: 12px;
+}
+
+.widget-dnd > switch slider {
+    background: @fg;
+    border-radius: 12px;
+}
+
+/* Плеер музыки */
+.widget-mpris {
+    background: @bg-alt;
+}
+
+.widget-mpris button {
+    border-radius: 6px;
+}

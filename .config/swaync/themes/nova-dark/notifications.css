@@ -1,0 +1,60 @@
+/* Контейнер уведомления */
+.notification-row {
+    outline: none;
+    margin-bottom: 6px;
+}
+
+.notification {
+    background: @bg;
+    border-radius: 10px;
+    padding: 6px;
+    border: 2px solid @blue; /* Синяя обводка по умолчанию */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Если уведомление критическое - красная рамка */
+.notification.critical {
+    border: 2px solid @red;
+    background: @bg-alt;
+}
+
+/* Если низкий приоритет - серая рамка */
+.notification.low {
+    border: 2px solid @grey;
+}
+
+/* Текстовая часть */
+.notification-content {
+    background: transparent;
+    padding: 4px;
+}
+
+.summary {
+    color: @blue;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.body {
+    color: @fg;
+    font-size: 0.9rem;
+}
+
+.time {
+    color: @grey;
+    font-size: 0.8rem;
+    margin-right: 12px;
+}
+
+/* Кнопки действий */
+.notification-action {
+    background: @bg-alt;
+    color: @fg;
+    border: 1px solid @grey;
+    border-radius: 6px;
+}
+
+.notification-action:hover {
+    background: @blue;
+    color: @bg;
+}

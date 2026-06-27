@@ -1,0 +1,85 @@
+* {
+    background:     #0b0b0bee;
+    background-alt: #141414ee;
+    foreground:     #d0d0d0;
+    selected:       #00d9ff;
+    active:         #00d9ff;
+    urgent:         #ff5555;
+
+    font: "JetBrainsMono Nerd Font 11";
+}
+
+window {
+    transparency: "real";
+    location: center;
+    anchor: center;
+    fullscreen: false;
+    width: 720px;
+    border-radius: 22px;
+    border: 1px;
+    border-color: #2a2a2a;
+    background-color: @background;
+}
+
+mainbox {
+    background-color: transparent;
+    padding: 18px;
+    spacing: 14px;
+}
+
+inputbar {
+    background-color: #101010ee;
+    border: 1px;
+    border-color: #2a2a2a;
+    border-radius: 14px;
+    padding: 10px 14px;
+    spacing: 10px;
+}
+
+prompt {
+    enabled: true;
+    text-color: @selected;
+}
+
+entry {
+    placeholder: "Search";
+    placeholder-color: #707070;
+    text-color: @foreground;
+}
+
+listview {
+    background-color: transparent;
+    columns: 5;
+    lines: 3;
+    spacing: 12px;
+    fixed-height: true;
+}
+
+element {
+    background-color: transparent;
+    border-radius: 16px;
+    padding: 12px;
+    spacing: 8px;
+    orientation: vertical;
+}
+
+element selected {
+    background-color: #00d9ff;
+    text-color: #050505;
+}
+
+element-icon {
+    size: 44px;
+    background-color: transparent;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    horizontal-align: 0.5;
+    vertical-align: 0.5;
+}
+
+scrollbar {
+    enabled: false;
+}

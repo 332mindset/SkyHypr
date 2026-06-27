@@ -1,0 +1,14 @@
+/* 1. Глобальные настройки шрифта */
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+}
+
+/* 2. Импорт Цветов */
+@import 'colors/one-dark.css';
+
+/* 3. Импорт Стили Уведомлений */
+@import 'themes/nova-dark/notifications.css';
+
+/* 4. Импорт Стили Центра Управления */
+@import 'themes/nova-dark/central_control.css';
