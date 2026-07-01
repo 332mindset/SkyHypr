@@ -1,4 +1,4 @@
-# SkyHypr
+# SkyHypr (A major update is coming soon, but this version is still current.)
 
 <div align="center">
 
